@@ -1,0 +1,4 @@
+/**
+ * inputFromConsole
+ */
+package inputFromConsole;

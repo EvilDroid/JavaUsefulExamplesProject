@@ -1,0 +1,4 @@
+/**
+ * workWithFiles
+ */
+package workWithFiles;
