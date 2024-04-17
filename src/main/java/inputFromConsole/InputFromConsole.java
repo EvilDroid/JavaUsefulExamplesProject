@@ -16,7 +16,6 @@ public class InputFromConsole {
         bufferedReader.close();
 
         //Scanner
-        //Использовать Scanner довольно удобно, но от этого не очень много пользы. Дело в том, что в будущем (и в учебе, и на работе) ты будешь часто использовать объекты BufferedReader и InputStreamReader и очень-очень редко объект типа Scanner. В данной ситуации он удобен, но в будущем толку от него мало. Так что мы пользоваться им не будем.
         Scanner in = new Scanner(System.in);
         System.out.print("Input a number: ");
         int num = in.nextInt();
