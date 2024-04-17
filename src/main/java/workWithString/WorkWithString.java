@@ -1,6 +1,6 @@
 package workWithString;
 
-public class workWithString {
+public class WorkWithString {
     public static void main(String[] args) {
 
         String name = "Ivanov, Ivan";

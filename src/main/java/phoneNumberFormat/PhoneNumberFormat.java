@@ -1,6 +1,6 @@
 package phoneNumberFormat;
 
-public class phoneNumberFormat {
+public class PhoneNumberFormat {
     public static void main(String[] args) {
         int code = 38;
         int phoneNumber = 71112233;

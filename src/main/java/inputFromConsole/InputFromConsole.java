@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class inputFromConsole {
+public class InputFromConsole {
     public static void main(String[] args) throws IOException {
 
         //BufferedReader
@@ -13,6 +13,7 @@ public class inputFromConsole {
         String name = bufferedReader.readLine(); //читаем строку с клавиатуры
         String sAge = bufferedReader.readLine(); //читаем строку с клавиатуры
         int nAge = Integer.parseInt(sAge); //преобразовываем строку в число.
+        bufferedReader.close();
 
         //Scanner
         //Использовать Scanner довольно удобно, но от этого не очень много пользы. Дело в том, что в будущем (и в учебе, и на работе) ты будешь часто использовать объекты BufferedReader и InputStreamReader и очень-очень редко объект типа Scanner. В данной ситуации он удобен, но в будущем толку от него мало. Так что мы пользоваться им не будем.

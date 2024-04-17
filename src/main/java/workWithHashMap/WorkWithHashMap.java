@@ -3,7 +3,7 @@ package workWithHashMap;
 import java.util.HashMap;
 import java.util.Map;
 
-public class workWithHashMap {
+public class WorkWithHashMap {
 
 
     public static void main(String[] args) {
