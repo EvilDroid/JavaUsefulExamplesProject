@@ -1,0 +1,6 @@
+/**
+ * wordsCounterInString
+ */
+
+
+package wordsCounterInString;
