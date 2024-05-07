@@ -10,7 +10,16 @@ public class FileLineReader {
 
 
         //FileReader
+        StringBuffer fileContent = new StringBuffer("");
+        FileReader fileReader = new FileReader("file.txt");
+        char currentChar;
+        while (fileReader.ready()) {
+            currentChar = (char)fileReader.read();
+            fileContent.append(currentChar);
+        }
+        fileReader.close();
 
+        //buffered FileReader
         BufferedReader reader = new BufferedReader(new FileReader("file.txt"));
         String line;
         while ((line = reader.readLine()) != null) {
@@ -19,7 +28,6 @@ public class FileLineReader {
         reader.close();
 
         //Scanner
-
         Scanner scanner = new Scanner(new File("file.txt"));
         while (scanner.hasNextLine()) {
             System.out.println(scanner.nextLine());
@@ -27,7 +35,6 @@ public class FileLineReader {
         scanner.close();
 
         //or
-
         try {
             String filePath = System.getProperty("user.dir") + "\\src\\main\\java\\fileLineReader\\";
             String fileName = "file.txt";
@@ -46,7 +53,6 @@ public class FileLineReader {
         }
 
         //or
-
 //        StringBuilder stringBuilderString = new StringBuilder();
 //        BufferedReader reader = new BufferedReader(new FileReader(filename1));
 //        String line;
