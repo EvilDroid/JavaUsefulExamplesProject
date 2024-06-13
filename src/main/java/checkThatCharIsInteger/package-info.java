@@ -1,0 +1,4 @@
+/**
+ * checkThatCharIsInteger
+ */
+package checkThatCharIsInteger;
