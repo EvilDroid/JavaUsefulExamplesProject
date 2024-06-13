@@ -1,0 +1,4 @@
+/**
+ * Pattern Adapter
+ */
+package patternAdapter;
