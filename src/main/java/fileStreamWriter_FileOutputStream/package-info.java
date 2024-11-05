@@ -1,4 +1,4 @@
 /**
  * write stream to file - FileOutputStream
  */
-package fileStreamWriter;
+package fileStreamWriter_FileOutputStream;

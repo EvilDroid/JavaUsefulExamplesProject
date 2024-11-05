@@ -1,4 +1,4 @@
-package fileStreamWriter;
+package fileStreamWriter_FileOutputStream;
 
 import java.io.File;
 import java.io.FileOutputStream;
