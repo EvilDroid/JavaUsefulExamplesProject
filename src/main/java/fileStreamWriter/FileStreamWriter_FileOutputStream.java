@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class FileStreamWriter {
+public class FileStreamWriter_FileOutputStream {
     public static void main(String[] args) throws IOException {
         String input = "some interesting text";
         byte [] biteArray = input.getBytes();
