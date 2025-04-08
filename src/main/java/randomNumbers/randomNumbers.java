@@ -16,14 +16,14 @@ public class randomNumbers {
         System.out.println(numb3);
 
         // random double from 0 to 5
-        int numb4 = (int)(Math.random() * 6 + 1);
+        int numb4 = (int)(Math.random() * 6);
         System.out.println(numb4);
 
         // random double from 1 to 6
         int numb5 = (int)(Math.random() * 6 + 1);
         System.out.println(numb5);
 
-        // random double from 0 to n
+        // random double from 1 to n
         int n = 365;
         int numb6 = (int)(Math.random() * n + 1);
         System.out.println(numb6);
