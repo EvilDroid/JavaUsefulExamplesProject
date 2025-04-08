@@ -1,6 +1,6 @@
 package randomNumbers;
 
-public class randomNumbers {
+public class RandomNumbers {
     public static void main(String[] args) {
 
         // random double from 0 to 1
